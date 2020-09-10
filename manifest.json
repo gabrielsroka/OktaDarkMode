@@ -1,6 +1,6 @@
 {
-  "short_name": "Medium Dark",
-  "name": "Medium Dark Mode",
+  "short_name": "Okta Dark",
+  "name": "Okta Dark Mode",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -13,13 +13,13 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "https://www.medium.com/*",
-    "https://medium.com/*",
-    "https://hackernoon.com/*"
+    "https://*.oktapreview.com/*",
+    "https://*.okta.com/*",
+    "https://*.okta-emea.com/*"
   ],
   "manifest_version": 2,
   "browser_action": {
-    "default_title": "Medium Dark"
+    "default_title": "Okta Dark"
   },
   "version": "1.0"
 }
